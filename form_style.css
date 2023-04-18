@@ -8,6 +8,34 @@ body{margin: 0px;}
   font-size: 50px;
   text-shadow: 2px 2px 2px black;
 }
+.subhead{
+  background-color: rgb(176, 196, 222);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subhead nav ul{
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  padding: 0px;
+  margin-top:0px;
+  margin-right: 50px;
+}
+.subhead nav ul li{
+  margin-right: 15px;
+}
+.subhead nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.subhead nav ul a:hover{
+  color: blue;
+  border: 1px solid white;
+  border-radius: 9px;
+  background-color: rgb(255, 105, 180);
+  padding: 2px;
+  font-weight: bolder;
+}
 .fieldset fieldset{
   margin-left: 30px;
   margin-right: 30px;
